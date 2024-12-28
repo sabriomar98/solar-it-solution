@@ -1,0 +1,186 @@
+{
+    "header": {
+        "home": "Accueil",
+        "services": "Services",
+        "contact": "Contact"
+    },
+    "footer": {
+        "quickLinks": "Liens Rapides",
+        "contactUs": "Contactez-nous",
+        "allRightsReserved": "Tous droits réservés"
+    },
+    "home": {
+        "welcome": "Bienvenue chez SolarIT Solutions",
+        "empowering": "Donnons aux entreprises les moyens d'utiliser l'énergie renouvelable et des solutions informatiques innovantes.",
+        "getStarted": "Commencer",
+        "ourServices": "Nos Services",
+        "solarEnergySolutions": "Solutions d'Énergie Solaire",
+        "solarEnergyDesc": "Exploitez la puissance du soleil avec nos installations de panneaux solaires de pointe et nos systèmes de gestion de l'énergie.",
+        "itServices": "Services Informatiques",
+        "itServicesDesc": "Du développement de sites web aux solutions logicielles personnalisées, nous fournissons le support technique dont votre entreprise a besoin pour prospérer.",
+        "whyChooseUs": "Pourquoi Nous Choisir ?",
+        "expertise": "Expertise en énergie renouvelable et en informatique",
+        "customizedSolutions": "Solutions personnalisées pour les besoins de votre entreprise",
+        "commitment": "Engagement envers la durabilité et l'innovation",
+        "excellentSupport": "Excellent support client et suivi",
+        "ourProjects": "Nos Projets",
+        "project1Title": "Installation de Ferme Solaire",
+        "project1Desc": "Installation d'une ferme solaire de 5MW pour une grande entreprise agricole.",
+        "project2Title": "Gestion Intelligente de l'Énergie",
+        "project2Desc": "Mise en place d'un système de gestion de l'énergie basé sur l'IoT pour une chaîne d'hôtels.",
+        "project3Title": "Plateforme E-commerce",
+        "project3Desc": "Développement d'une plateforme e-commerce personnalisée pour un détaillant de produits d'énergie renouvelable.",
+        "testimonials": "Ce Que Disent Nos Clients",
+        "testimonial1": "SolarIT Solutions a transformé notre consommation d'énergie et notre infrastructure informatique. Leur expertise dans les deux domaines est inégalée.",
+        "testimonial1Author": "Jean Dupont, PDG de GreenFields Inc.",
+        "testimonial2": "L'équipe de SolarIT est allée au-delà de nos attentes en fournissant une solution qui non seulement répondait à nos besoins, mais les dépassait.",
+        "testimonial2Author": "Marie Durand, Directrice Technique de TechInnovate SARL"
+    },
+    "Home": {
+        "hero": {
+            "title": "Alimenter l'Avenir avec SolarIT Solutions",
+            "subtitle": "Donnons aux entreprises les moyens d'utiliser des solutions d'énergie renouvelable et des technologies informatiques innovantes pour un avenir durable.",
+            "cta": "Commencez Votre Voyage"
+        },
+        "services": {
+            "title": "Nos Services Complets",
+            "solarEnergySolutions": "Solutions d'Énergie Solaire",
+            "solarEnergyDesc": "Exploitez la puissance du soleil avec nos installations de panneaux solaires de pointe et nos systèmes intelligents de gestion de l'énergie. Nous concevons des solutions personnalisées pour maximiser votre efficacité énergétique et réduire les coûts.",
+            "itServices": "Services Informatiques",
+            "itServicesDesc": "Du développement de sites web robustes aux solutions logicielles sur mesure, nous fournissons l'infrastructure technologique dont votre entreprise a besoin pour prospérer à l'ère numérique. Nos services informatiques sont conçus pour rationaliser vos opérations et augmenter la productivité."
+        },
+        "whyChooseUs": {
+            "title": "Pourquoi Choisir SolarIT Solutions ?",
+            "expertise": {
+                "title": "Expertise Inégalée",
+                "description": "Notre équipe d'experts apporte des années d'expérience dans les domaines de l'énergie renouvelable et de l'informatique, vous offrant le meilleur des deux mondes."
+            },
+            "customizedSolutions": {
+                "title": "Solutions Sur Mesure",
+                "description": "Nous comprenons que chaque entreprise est unique. C'est pourquoi nous créons des solutions personnalisées qui s'adaptent parfaitement à vos besoins et objectifs spécifiques."
+            },
+            "commitment": {
+                "title": "Engagement envers la Durabilité",
+                "description": "Nous ne sommes pas seulement un fournisseur de services ; nous sommes votre partenaire dans la création d'un avenir durable. Nos solutions sont conçues en tenant compte de l'environnement."
+            },
+            "excellentSupport": {
+                "title": "Support Exceptionnel",
+                "description": "Notre engagement ne se termine pas avec l'installation. Nous fournissons un support et une maintenance continus pour garantir que vos systèmes fonctionnent toujours à leur efficacité maximale."
+            }
+        },
+        "projects": {
+            "title": "Nos Projets Réussis",
+            "project1Title": "Ferme Solaire à Grande Échelle",
+            "project1Desc": "Mise en place d'une ferme solaire de 5MW pour une grande entreprise agricole, réduisant considérablement leurs coûts énergétiques et leur empreinte carbone.",
+            "project2Title": "Gestion Intelligente de l'Énergie",
+            "project2Desc": "Développement et déploiement d'un système de gestion de l'énergie basé sur l'IoT pour une chaîne d'hôtels, optimisant leur consommation d'énergie et réduisant les coûts.",
+            "project3Title": "Plateforme E-commerce",
+            "project3Desc": "Création d'une plateforme e-commerce personnalisée pour un détaillant de produits d'énergie renouvelable, augmentant leurs ventes en ligne et l'engagement des clients."
+        },
+        "testimonials": {
+            "title": "Ce Que Disent Nos Clients",
+            "testimonial1": "SolarIT Solutions a transformé notre consommation d'énergie et notre infrastructure informatique. Leur expertise dans les deux domaines est vraiment inégalée, et les résultats parlent d'eux-mêmes. Nous avons constaté une réduction significative de nos coûts énergétiques et une amélioration de notre efficacité opérationnelle.",
+            "testimonial1Author": "Jean Dupont, PDG de GreenFields Inc.",
+            "testimonial2": "L'équipe de SolarIT est allée au-delà de nos attentes en fournissant une solution qui non seulement répondait à nos besoins, mais les dépassait. Leur engagement envers la durabilité s'aligne parfaitement avec les valeurs de notre entreprise, et leur support continu a été inestimable.",
+            "testimonial2Author": "Marie Durand, Directrice Technique de TechInnovate SARL"
+        }
+    },
+    "services": {
+        "ourServices": "Nos Services",
+        "servicesIntro": "Chez SolarIT Solutions, nous offrons une gamme complète de services qui combinent des solutions d'énergie solaire avec des services informatiques de pointe. Notre objectif est d'aider les entreprises et les particuliers à exploiter la puissance de l'énergie durable tout en tirant parti des technologies avancées pour une efficacité optimale.",
+        "solarEnergySolutions": "Solutions d'Énergie Solaire",
+        "itServices": "Services Informatiques",
+        "solarPanelInstallation": "Installation de Panneaux Solaires",
+        "solarPanelInstallationDesc": "Installation professionnelle de panneaux solaires haute efficacité pour les maisons et les entreprises.",
+        "energyManagementSystems": "Systèmes de Gestion de l'Énergie",
+        "energyManagementSystemsDesc": "Systèmes intelligents pour surveiller et optimiser votre consommation d'énergie.",
+        "websiteDevelopment": "Développement de Sites Web",
+        "websiteDevelopmentDesc": "Sites web personnalisés et réactifs adaptés aux besoins de votre entreprise.",
+        "customSoftwareSolutions": "Solutions Logicielles Personnalisées",
+        "customSoftwareSolutionsDesc": "Applications logicielles sur mesure conçues pour rationaliser vos opérations.",
+        "solarMaintenance": "Maintenance des Systèmes Solaires",
+        "solarMaintenanceDesc": "Services de maintenance et de réparation réguliers pour garantir le fonctionnement optimal de votre système solaire.",
+        "cloudServices": "Services Cloud",
+        "cloudServicesDesc": "Solutions cloud sécurisées et évolutives pour le stockage et la gestion des données.",
+        "consultingServices": "Services de Conseil",
+        "consultingServicesDesc": "Nos consultants experts fournissent des informations précieuses pour vous aider à prendre des décisions éclairées concernant vos besoins énergétiques et informatiques.",
+        "energyAudits": "Audits Énergétiques",
+        "itInfrastructureAssessment": "Évaluation de l'Infrastructure Informatique",
+        "sustainabilityPlanning": "Planification de la Durabilité",
+        "technologyRoadmapping": "Feuille de Route Technologique",
+        "ourProcess": "Notre Processus",
+        "processConsultation": "Consultation",
+        "processConsultationDesc": "Nous commençons par une consultation approfondie pour comprendre vos besoins et objectifs uniques.",
+        "processPlanning": "Planification",
+        "processPlanningDesc": "Notre équipe élabore un plan complet adapté à vos besoins spécifiques.",
+        "processImplementation": "Mise en Œuvre",
+        "processImplementationDesc": "Nous exécutons le plan avec précision, en veillant à minimiser les perturbations de vos opérations.",
+        "processSupport": "Support Continu",
+        "processSupportDesc": "Nous fournissons un support et une maintenance continus pour assurer un succès à long terme.",
+        "whyChooseUs": "Pourquoi Nous Choisir",
+        "expertise": "Expertise Inégalée",
+        "expertiseDesc": "Notre équipe combine une connaissance approfondie de l'énergie solaire et de l'informatique, offrant des solutions holistiques.",
+        "customizedSolutions": "Solutions Sur Mesure",
+        "customizedSolutionsDesc": "Nous créons des solutions personnalisées qui s'adaptent parfaitement à vos besoins et objectifs commerciaux uniques.",
+        "sustainabilityFocus": "Engagement envers la Durabilité",
+        "sustainabilityFocusDesc": "Nous sommes dédiés à promouvoir des pratiques durables qui profitent à la fois à votre entreprise et à l'environnement.",
+        "customerSupport": "Support Client Exceptionnel",
+        "customerSupportDesc": "Notre équipe de support réactive s'assure que vous obtenez l'assistance dont vous avez besoin, quand vous en avez besoin.",
+        "getStarted": "Prêt à Commencer ?",
+        "getStartedDesc": "Faites le premier pas vers un avenir plus durable et technologiquement avancé pour votre entreprise.",
+        "contactUs": "Contactez-Nous Aujourd'hui"
+    },
+    "contact": {
+        "contactUs": "Contactez-nous",
+        "getInTouch": "Entrez en Contact",
+        "contactDescription": "Vous avez des questions sur nos services ou vous voulez discuter de la façon dont nous pouvons aider votre entreprise ? Remplissez le formulaire, et nous vous répondrons dans les plus brefs délais.",
+        "ourOffice": "Notre Bureau",
+        "country": "États-Unis",
+        "email": "Email",
+        "phone": "Téléphone",
+        "followUs": "Suivez-nous",
+        "sendMessage": "Envoyer un Message",
+        "name": "Nom",
+        "namePlaceholder": "Entrez votre nom",
+        "emailPlaceholder": "Entrez votre email",
+        "message": "Message",
+        "messagePlaceholder": "Entrez votre message",
+        "send": "Envoyer le Message",
+        "sending": "Envoi en cours...",
+        "successTitle": "Message Envoyé",
+        "successMessage": "Merci pour votre message. Nous vous répondrons bientôt !"
+    },
+    "Header": {
+        "title": "SolarIT Solutions",
+        "home": "Accueil",
+        "services": "Services",
+        "contact": "Contact",
+        "english": "Anglais",
+        "french": "Français"
+    },
+    "Metadata": {
+        "title": "SolarIT Solutions - Énergie Solaire et Services Informatiques",
+        "description": "Solutions d'énergie renouvelable et services informatiques pour les entreprises",
+        "servicesTitle": "Nos services - Solutions SolarIT",
+        "servicesDescription": "Découvrez notre gamme de services d'énergie solaire et informatiques pour les entreprises"
+    },
+    "Footer": {
+        "companyName": "SolarIT Solutions",
+        "companyDescription": "Donnons aux entreprises les moyens d'utiliser l'énergie renouvelable et des solutions informatiques de pointe.",
+        "quickLinks": "Liens Rapides",
+        "home": "Accueil",
+        "services": "Services",
+        "about": "À Propos",
+        "contact": "Contact",
+        "contactUs": "Contactez-nous",
+        "address": "123 Rue Solaire, Ville Tech, TC 12345",
+        "email": "Email",
+        "phone": "Téléphone",
+        "newsletter": "Bulletin d'Information",
+        "newsletterDescription": "Restez informé de nos dernières nouvelles et offres.",
+        "emailPlaceholder": "Entrez votre email",
+        "subscribeSuccess": "Inscription Réussie",
+        "subscribeMessage": "Merci de vous être abonné à notre bulletin d'information !",
+        "allRightsReserved": "Tous droits réservés."
+    }
+}
