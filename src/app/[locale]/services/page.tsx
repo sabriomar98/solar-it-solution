@@ -1,19 +1,31 @@
-import { AnimatedSection } from '../../../components/AnimatedSection'
+import { AnimatedSection } from '@/components/AnimatedSection'
 import { getTranslations } from 'next-intl/server'
 import ServiceCard from '@/components/reusable/ServiceCard'
 import { Link } from '@/i18n/routing'
+import { Metadata } from 'next'
 
-export async function generateMetadata(params: Promise<{ locale: string }>) {
-    const { locale } = await params
+
+type Props = {
+    params: Promise<{ locale: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { locale } = await params;
+
     const t = await getTranslations({ locale, namespace: 'Metadata' })
+    console.log(locale);
+    
+    console.log(t("servicesTitle"));
+    
     return {
         title: t('servicesTitle'),
         description: t('servicesDescription'),
     }
 }
 
-export default async function Services(params: Promise<{ locale: string }>) {
-    const { locale } = await params
+export default async function Services({ params }: Props) {
+    const { locale } = await params;
+
     const t = await getTranslations({ locale, namespace: 'services' })
 
     const services = [

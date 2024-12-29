@@ -112,30 +112,32 @@
         "french": "French"
     },
     "contact": {
-        "contactUs": "Contact Us",
+        "title": "Contact Us",
         "getInTouch": "Get in Touch",
         "contactDescription": "Have questions about our services or want to discuss how we can help your business? Fill out the form, and we'll get back to you as soon as possible.",
         "ourOffice": "Our Office",
         "country": "United States",
-        "email": "Email",
+        "contactInfo": "Contact Information",
         "phone": "Phone",
-        "followUs": "Follow Us",
-        "sendMessage": "Send a Message",
         "name": "Name",
-        "namePlaceholder": "Enter your name",
-        "emailPlaceholder": "Enter your email",
+        "email": "Email",
         "message": "Message",
-        "messagePlaceholder": "Enter your message",
-        "send": "Send Message",
+        "sendMessage": "Send Message",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "Your email address",
+        "messagePlaceholder": "Your message",
         "sending": "Sending...",
+        "send": "Send",
         "successTitle": "Message Sent",
-        "successMessage": "Thank you for your message. We'll get back to you soon!"
+        "successMessage": "We have received your message. We'll get back to you as soon as possible."
     },
     "Metadata": {
         "title": "SolarIT Solutions - Solar Energy and IT Services",
         "description": "Renewable Energy and IT Solutions for Businesses",
         "servicesTitle": "Our Services - SolarIT Solutions",
-        "servicesDescription": "Explore our range of solar energy and IT services for businesses"
+        "servicesDescription": "Explore our range of solar energy and IT services for businesses",
+        "contactTitle": "Contact SolarIT Solutions",
+        "contactDescription": "Get in touch with SolarIT Solutions for innovative solar energy solutions and IT services."
     },
     "Footer": {
         "companyName": "SolarIT Solutions",

@@ -131,24 +131,24 @@
         "contactUs": "Contactez-Nous Aujourd'hui"
     },
     "contact": {
-        "contactUs": "Contactez-nous",
-        "getInTouch": "Entrez en Contact",
+        "title": "Contactez-nous",
+        "getInTouch": "Entrez en contact",
         "contactDescription": "Vous avez des questions sur nos services ou vous voulez discuter de la façon dont nous pouvons aider votre entreprise ? Remplissez le formulaire, et nous vous répondrons dans les plus brefs délais.",
         "ourOffice": "Notre Bureau",
         "country": "États-Unis",
-        "email": "Email",
+        "contactInfo": "Informations de Contact",
         "phone": "Téléphone",
-        "followUs": "Suivez-nous",
-        "sendMessage": "Envoyer un Message",
         "name": "Nom",
-        "namePlaceholder": "Entrez votre nom",
-        "emailPlaceholder": "Entrez votre email",
+        "email": "Email",
         "message": "Message",
-        "messagePlaceholder": "Entrez votre message",
-        "send": "Envoyer le Message",
+        "sendMessage": "Envoyer le Message",
+        "namePlaceholder": "Votre nom",
+        "emailPlaceholder": "Votre adresse e-mail",
+        "messagePlaceholder": "Votre message",
         "sending": "Envoi en cours...",
-        "successTitle": "Message Envoyé",
-        "successMessage": "Merci pour votre message. Nous vous répondrons bientôt !"
+        "send": "Envoyer",
+        "successTitle": "Message envoyé",
+        "successMessage": "Nous avons bien reçu votre message. Nous vous répondrons dans les plus brefs délais."
     },
     "Header": {
         "title": "SolarIT Solutions",
@@ -162,7 +162,9 @@
         "title": "SolarIT Solutions - Énergie Solaire et Services Informatiques",
         "description": "Solutions d'énergie renouvelable et services informatiques pour les entreprises",
         "servicesTitle": "Nos services - Solutions SolarIT",
-        "servicesDescription": "Découvrez notre gamme de services d'énergie solaire et informatiques pour les entreprises"
+        "servicesDescription": "Découvrez notre gamme de services d'énergie solaire et informatiques pour les entreprises",
+        "contactTitle": "Contactez SolarIT Solutions",
+        "contactDescription": "Prenez contact avec SolarIT Solutions pour des solutions d'énergie solaire et des services informatiques innovants."
     },
     "Footer": {
         "companyName": "SolarIT Solutions",
