@@ -12,13 +12,13 @@
     "Home": {
         "hero": {
             "title": "Powering the Future with SolarIT Solutions",
-            "subtitle": "Empowering businesses with cutting-edge renewable energy and innovative IT solutions for a sustainable tomorrow.",
+            "subtitle": "Empowering businesses to succeed through energy efficiency solutions, renewable energy, environmental management, and innovative IT technologies for a sustainable future.",
             "cta": "Start Your Journey"
         },
         "services": {
             "title": "Our Comprehensive Services",
-            "solarEnergySolutions": "Solar Energy Solutions",
-            "solarEnergyDesc": "Harness the power of the sun with our state-of-the-art solar panel installations and intelligent energy management systems. We design custom solutions to maximize your energy efficiency and reduce costs.",
+            "solarEnergySolutions": "Sustainable development",
+            "solarEnergyDesc": "Harness the potential of sustainability with our comprehensive solutions in energy efficiency, renewable energy, and environmental management. We design tailored strategies to optimize your resources, reduce your carbon footprint, and control your costs, all while contributing to a greener and more responsible future.",
             "itServices": "IT Services",
             "itServicesDesc": "From robust website development to tailored software solutions, we provide the technological backbone your business needs to thrive in the digital age. Our IT services are designed to streamline your operations and boost productivity."
         },
@@ -26,7 +26,7 @@
             "title": "Why Choose SolarIT Solutions?",
             "expertise": {
                 "title": "Unparalleled Expertise",
-                "description": "Our team of experts brings years of experience in both renewable energy and IT, offering you the best of both worlds."
+                "description": "Our team of experts brings years of experience in the fields of energy, water, environment, and IT, offering you the best of both worlds."
             },
             "customizedSolutions": {
                 "title": "Tailored Solutions",
@@ -60,24 +60,30 @@
     },
     "services": {
         "ourServices": "Our Services",
-        "servicesIntro": "At SolarIT Solutions, we offer a comprehensive range of services that combine solar energy solutions with cutting-edge IT services. Our goal is to help businesses and individuals harness the power of sustainable energy while leveraging advanced technology for optimal efficiency.",
-        "solarEnergySolutions": "Solar Energy Solutions",
+        "servicesIntro": "At Solaire, we offer practical and tailored solutions in the fields of energy, environment, and IT for a sustainable future. We help you enhance your competitiveness, regulatory compliance, and integrate innovative technologies for optimized management. Trust our expertise to build a sustainable world.",
+        "solarEnergySolutions": "Sustainable development",
         "itServices": "IT Services",
-        "solarPanelInstallation": "Solar Panel Installation",
-        "solarPanelInstallationDesc": "Professional installation of high-efficiency solar panels for homes and businesses.",
-        "energyManagementSystems": "Energy Management Systems",
-        "energyManagementSystemsDesc": "Smart systems to monitor and optimize your energy consumption.",
-        "websiteDevelopment": "Website Development",
-        "websiteDevelopmentDesc": "Custom-built, responsive websites tailored to your business needs.",
-        "customSoftwareSolutions": "Custom Software Solutions",
-        "customSoftwareSolutionsDesc": "Bespoke software applications designed to streamline your operations.",
-        "solarMaintenance": "Solar System Maintenance",
-        "solarMaintenanceDesc": "Regular maintenance and repair services to ensure your solar system operates at peak efficiency.",
+        "energyEfficiency": "Energy efficiency",
+        "websiteCreation": "Website development",
+        "websiteCreationDesc": "Website creation and design tailored to the needs of your business or project, using modern technologies to ensure smooth navigation, responsive design and an optimal user experience.",
+        "energyEfficiencyDesc": "Audit, optimization of consumption and implementation of suitable solutions to reduce costs and emissions.",
+        "renewableEnergy": "Renewable energy",
+        "renewableEnergyDesc": "Design and installation of solar systems and other clean technologies for sustainable energy.",
+        "bilanCarbone": "Carbon Footprint",
+        "bilanCarboneDesc": "Analysis of greenhouse gas emissions and definition of strategies to achieve your carbon neutrality goals.",
+        "wasteManagement": "Waste management",
+        "wasteManagementDesc": "Implementation of sorting, recovery and waste reduction systems for reduced environmental impact.",
+        "waterAudit": "Water Audit",
+        "waterAuditDesc": "Assessment and optimization of water consumption for responsible resource management.",
         "cloudServices": "Cloud Services",
         "cloudServicesDesc": "Secure and scalable cloud solutions for data storage and management.",
         "consultingServices": "Consulting Services",
         "consultingServicesDesc": "Our expert consultants provide valuable insights to help you make informed decisions about your energy and IT needs.",
         "energyAudits": "Energy Audits",
+        "waterAudits": "Water Audit",
+        "environmentAudits": "Environmental Audit",
+        "renewalEnergy": "Renewable Energy",
+        "bilanCarbon": "Carbon Balance",
         "itInfrastructureAssessment": "IT Infrastructure Assessment",
         "sustainabilityPlanning": "Sustainability Planning",
         "technologyRoadmapping": "Technology Roadmapping",

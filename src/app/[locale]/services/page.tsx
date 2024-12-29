@@ -12,7 +12,7 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { locale } = await params;
 
-    const t = await getTranslations({ locale, namespace: 'Metadata' })    
+    const t = await getTranslations({ locale, namespace: 'Metadata' })
 
     return {
         title: t('servicesTitle'),
@@ -26,11 +26,12 @@ export default async function Services({ params }: Props) {
     const t = await getTranslations({ locale, namespace: 'services' })
 
     const services = [
-        { image: "/images/service1.png", title: 'solarPanelInstallation', description: 'solarPanelInstallationDesc' },
-        { image: "/images/service2.png", title: 'energyManagementSystems', description: 'energyManagementSystemsDesc' },
-        { image: "/images/service3.png", title: 'websiteDevelopment', description: 'websiteDevelopmentDesc' },
-        { image: "/images/service4.png", title: 'customSoftwareSolutions', description: 'customSoftwareSolutionsDesc' },
-        { image: "/images/service5.png", title: 'solarMaintenance', description: 'solarMaintenanceDesc' },
+        { image: "/images/efficacity_energy.jpg", title: 'energyEfficiency', description: 'energyEfficiencyDesc' },
+        { image: "/images/renewale_energy.jpg", title: 'renewableEnergy', description: 'renewableEnergyDesc' },
+        { image: "/images/bilan_carbon.jpg", title: 'bilanCarbone', description: 'bilanCarboneDesc' },
+        { image: "/images/waste_management.jpg", title: 'wasteManagement', description: 'wasteManagementDesc' },
+        { image: "/images/water_audit.jpg", title: 'waterAudit', description: 'waterAuditDesc' },
+        { image: "/images/service3.png", title: 'websiteCreation', description: 'websiteCreationDesc' },
         { image: "/images/service6.png", title: 'cloudServices', description: 'cloudServicesDesc' },
     ]
 
@@ -44,7 +45,7 @@ export default async function Services({ params }: Props) {
             <AnimatedSection className="mb-16">
                 <h2 className="text-3xl font-bold mb-8 text-center">{t('solarEnergySolutions')}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    {services.slice(0, 3).map((service, index) => (
+                    {services.slice(0, 5).map((service, index) => (
                         <ServiceCard key={index} image={service.image} title={t(service.title)} description={t(service.description)} />
                     ))}
                 </div>
@@ -53,7 +54,7 @@ export default async function Services({ params }: Props) {
             <AnimatedSection className="mb-16">
                 <h2 className="text-3xl font-bold mb-8 text-center">{t('itServices')}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-                    {services.slice(3, 6).map((service, index) => (
+                    {services.slice(5, 7).map((service, index) => (
                         <ServiceCard key={index} image={service.image} title={t(service.title)} description={t(service.description)} />
                     ))}
                 </div>
@@ -67,6 +68,22 @@ export default async function Services({ params }: Props) {
                         <li className="flex items-center">
                             <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                             {t('energyAudits')}
+                        </li>
+                        <li className="flex items-center">
+                            <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            {t('waterAudits')}
+                        </li>
+                        <li className="flex items-center">
+                            <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            {t('environmentAudits')}
+                        </li>
+                        <li className="flex items-center">
+                            <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            {t('renewalEnergy')}
+                        </li>
+                        <li className="flex items-center">
+                            <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            {t('bilanCarbon')}
                         </li>
                         <li className="flex items-center">
                             <svg className="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
