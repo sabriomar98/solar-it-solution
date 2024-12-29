@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react'
 import { Moon, Sun, ChevronDown, Menu, X } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { Link, locales, usePathname, useRouter } from '@/i18n/routing'
-import { useTranslations } from 'next-intl'
+import { useLocale, useTranslations } from 'next-intl'
+import Flag from 'react-world-flags'
 
 const Header = () => {
     const [mounted, setMounted] = useState(false)
@@ -13,7 +14,8 @@ const Header = () => {
     const router = useRouter()
     const [isLangOpen, setIsLangOpen] = useState(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-    const t = useTranslations('Header')
+    const t = useTranslations('Header');
+    const locale = useLocale();
 
     useEffect(() => {
         setMounted(true)
@@ -22,7 +24,8 @@ const Header = () => {
     const toggleLangMenu = () => setIsLangOpen(!isLangOpen)
     const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen)
 
-    const currentLang = pathname.startsWith('/fr') ? 'FR' : 'EN'
+    const currentLang = locale === "fr" ? 'FR' : 'EN';
+    const currentFlag = locale === "fr" ? 'FR' : 'GB';
 
     const switchLocale = (newLocale: string) => {
         router.push(pathname, { locale: newLocale })
@@ -43,7 +46,8 @@ const Header = () => {
                         <li><Link href="/contact" className="text-foreground hover:text-primary">{t('contact')}</Link></li>
                     </ul>
                     <div className="relative hidden md:block">
-                        <button onClick={toggleLangMenu} className="flex items-center space-x-1 text-foreground">
+                        <button onClick={toggleLangMenu} className="flex items-center space-x-2 text-foreground">
+                            <Flag code={currentFlag} className="w-6 h-6" />
                             <span>{currentLang}</span>
                             <ChevronDown size={20} />
                         </button>
@@ -83,7 +87,8 @@ const Header = () => {
                         <li><Link href="/contact" className="block py-2 px-4 text-foreground hover:text-primary" onClick={toggleMobileMenu}>{t('contact')}</Link></li>
                         <li>
                             <div className="relative">
-                                <button onClick={toggleLangMenu} className="flex items-center space-x-1 text-foreground py-2 px-4">
+                                <button onClick={toggleLangMenu} className="flex items-center space-x-2 text-foreground py-2 px-4">
+                                    <Flag code={currentFlag} className="w-5 h-3" />
                                     <span>{currentLang}</span>
                                     <ChevronDown size={20} />
                                 </button>
